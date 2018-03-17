@@ -1,0 +1,113 @@
+.main {
+    padding-top: 134px;
+    width: 100%;
+    height: 1680px;
+}
+.w {
+    width: 1138px;
+    margin:  0 auto;
+}
+/*.ourservicesstart*/
+.ourservices {
+    width: 100%;
+    height: 162px;
+    background: url("../images/banner1.jpg") no-repeat center;
+}
+.ourservices p {
+    display: inline-block;
+    line-height: 43px;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: raleway, sans-serif;
+    color: #FFFFFF;
+    margin-top: 70px;
+}
+.ourservices .dz{
+    margin-top: 72px;
+    width:128px;
+    height: 17px;
+}
+.ourservices .dz a {
+    color: #FFFFFF;
+}
+.ourservices .dz a:hover {
+    color: #01B1D7;
+}
+/*.ourservicesend*/
+/*.pros start*/
+.pros-top {
+    margin-top: 81px;
+    height: 392px;
+}
+.u71264 {
+    float: left;
+    width: 367px;
+    height: 212px;
+}
+.u71264 .texx1 {
+    text-align: center;
+    display: inline-block;
+    width: 367px;
+    height: 212px;
+    line-height: 212px;
+}
+.u71264 .tex1 {
+    width: 367px;
+    height: 212px;
+    background-color: RGBA(0,1,1,0.3);
+    display: none;
+    transition: inherit;
+    border-width: 0px;
+    border-color: transparent;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 72px;
+}
+.u71264 .texx1:hover .tex1 {
+    display: inline-block;
+}
+#plan1 {
+    background: url("../images/project-image5.jpg");
+}
+#plan2 {
+    background: url("../images/project-image1.jpg");
+}
+#plan3 {
+    background: url("../images/project-image4.jpg");
+}
+#plan4 {
+    background: url("../images/project-image3.jpg");
+}
+#plan5 {
+    background: url("../images/project-image5.jpg");
+}
+#plan6 {
+    background: url("../images/project-image6.jpg");
+}
+.pros-top .planning h3 {
+    cursor: pointer;
+    margin-top: 35px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #222222;
+    font-size: 20px;
+    font-family: raleway, sans-serif;
+}
+.pros-top .planning h3:hover {
+    color: #01B1D7;
+}
+.pros-top .planning span {
+    margin-top: 25px;
+    display: inline-block;
+    width: 61px;
+    height: 2px;
+    background-color: #01B1D7;
+}
+.pros-top .planning .planningp {
+    margin-top: 28px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: lato, sans-serif;
+    color: #646464;
+}
+/*.pros-top end*/

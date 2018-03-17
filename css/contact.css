@@ -1,0 +1,172 @@
+.main {
+    padding-top: 134px;
+    width: 100%;
+    height: 1180px;
+    /*background-color: red;*/
+}
+.w {
+    width: 1138px;
+    margin:  0 auto;
+}
+/*.ourservicesstart*/
+.ourservices {
+    width: 100%;
+    height: 162px;
+    background: url("../images/banner1.jpg") no-repeat center;
+}
+.ourservices p {
+    display: inline-block;
+    line-height: 43px;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: raleway, sans-serif;
+    color: #FFFFFF;
+    margin-top: 70px;
+}
+.ourservices .dz{
+    margin-top: 72px;
+    width:128px;
+    height: 17px;
+}
+.ourservices .dz a {
+    color: #FFFFFF;
+}
+.ourservices .dz a:hover {
+    color: #01B1D7;
+}
+/*.ourservicesend*/
+/*.pleasezhuce start*/
+.pleasezhuce {
+    width: 100%;
+    height: 175px;
+    background-color: #01B1D7;
+}
+.pleasezhuce a {
+    display: inline-block;
+    height: 175px;
+    line-height: 175px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: raleway, sans-serif;
+    color: #FFFFFF;
+}
+.pleasezhuce a span {
+    font-family: raleway, sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+    line-height: 36px;
+    font-size: 40px;
+}
+.pleasezhuce button{
+    margin-top: 60px;
+    color: #FFFFFF;
+    float: right;
+    text-align: center;
+    font-family: raleway, sans-serif;
+    line-height: 22px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    width: 190px;
+    height: 50px;
+    font-weight: 600;
+}
+.pleasezhuce button:hover {
+    color: #01B1D7;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+/*.pleasezhuce end*/
+/*.denglu start*/
+.denglu {
+    width: 100%;
+    height: 760px;
+    padding-top: 85px;
+}
+.denglu .information {
+    height: 120px;
+}
+.denglu .information h3 {
+    line-height: 36px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: raleway, sans-serif;
+    color: #222222;
+}
+.denglu .information span {
+    margin-top: 22px;
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: #01B1D7;
+}
+.denglu .information p {
+    margin-top: 22px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #646464;
+    font-family: lato, sans-serif;
+}
+.denglu .address {
+    margin-top: 53px;
+    height: 67px;
+}
+.denglu .address div {
+    padding-left: 40px;
+    padding-right: 76px;
+    float: left;
+    margin-top: 14px;
+    position: relative;
+}
+.denglu .address div img {
+    position: absolute;
+    top: 4px ;
+    left:5px;
+}
+.denglu .send {
+    margin-top: 54px;
+    height: 352px;
+}
+.denglu .send h3{
+    line-height: 36px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: raleway, sans-serif;
+    color: #222222;
+}
+.denglu .send  form {
+    margin-top: 38px;
+}
+.denglu .send form #input1{
+    border: 1px solid #707070;
+    text-align: left;
+    width: 400px;
+    height: 44px;
+    margin-right: 20px;
+}
+.denglu .send form #input2 {
+    border: 1px solid #707070;
+    height: 44px;
+    width: 400px;
+}
+.denglu .send form #input3 {
+    margin-top: 21px;
+    width: 826px;
+    height: 124px;
+    border: 1px solid #707070;
+}
+.denglu .send  button {
+    margin-top: 20px;
+    background-color: #222222;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 55px;
+    width: 180px;
+    height: 55px;
+}
+.denglu .send button:hover {
+    background-color: #01B1D7;
+}
+/*.senglu end*/

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Internship Sign In & Sign Up Form a Responsive Widget Template :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Internship Sign In & Sign Up Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
+<!-- Custom Theme files -->
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/snow.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--<link rel="stylesheet" href="css/base.css">-->
+	<style type="text/css">
+		#my_button {
+			color: #01B1D7;
+			font-weight: 600;
+		}
+		#my_button:hover {
+			color: #f5f5f5;
+		}
+	</style>
+<!-- //Custom Theme files -->
+<!-- web font -->
+<!--<link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">-->
+
+<!-- //web font -->
+</head>
+<body>
+<div class="snow-container">
+			  <div class="snow foreground"></div>
+			  <div class="snow foreground layered"></div>
+			  <div class="snow middleground"></div>
+			  <div class="snow middleground layered"></div>
+			  <div class="snow background"></div>
+			  <div class="snow background layered"></div>
+			</div>
+
+<div class="top-buttons-agileinfo">
+<a href="denglu.html"  class="active">登录</a><a href="signup.html">注册</a>
+</div>
+<h1>Land&nbsp;Now
+</h1>
+<div class="main-agileits">
+<!--form-stars-here-->
+		<div class="form-w3-agile">
+			<h2 class="sub-agileits-w3layouts">登录</h2>
+			<form action="enter.php" method="post">
+					<input type="email" name="Eamil" placeholder="用户" required="" />
+					<input type="password" name="Password" placeholder="密码" required="" />
+					<div id="v_container" style="width: 200px;height: 50px;" class=""></div>
+					<input type="text" id="code_input" value="" />
+					<span id="my_button" style="cursor: pointer;margin-left: -10px">验证</span>
+					<a href="#" class="forgot-w3layouts" style="margin-top:30px">忘记密码 ?</a>
+
+				<div class="submit-w3l">
+					<input type="submit" value="登录">
+				</div>
+				<p class="p-bottom-w3ls"><a href="signup.html">点击注册</a>如果你没有一个帐户。
+.</p>
+			</form>
+		</div>
+		</div>
+<!--//form-ends-here-->
+<!-- copyright -->
+	<div class="copyright w3-agile">
+		<p> © 2017 by TiL <a href="index.html">Home</a></p>
+	</div>
+	<!-- //copyright -->
+<script src="js/gVerify.js"></script>
+<script>
+	window.onload = function(){
+		var verifyCode = new GVerify("v_container");
+
+		document.getElementById("my_button").onclick = function(){
+			var res = verifyCode.validate(document.getElementById("code_input").value);
+			if(res){
+				alert("验证正确");
+			}else{
+				alert("验证码错误");
+			}
+		}
+	}
+
+</script>
+</body>
+</html>
