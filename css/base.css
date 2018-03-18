@@ -141,7 +141,6 @@ fieldset, img, input, button { 			/*fieldset组合表单中的相关元素*/
     margin: 0 10px;
 }
 .headder-bottom-r ul li a {
-    color: #646464;
     text-decoration: none;
 }
 .headder-bottom-r ul li a:hover {

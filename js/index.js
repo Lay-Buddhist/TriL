@@ -13,11 +13,3 @@ hInput.onmouseout  = function(){
 //轮播图start
 
 //轮播图end
-    $(function () {
-        $("#fsD1").on("mouseenter", function () {
-            $("#grow").css("zIndex",999);
-        })
-        $("#fsD1").mouseleave(function () {
-            $("#grow").css("zIndex",-1);
-        })
-    })
