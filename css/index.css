@@ -92,16 +92,16 @@ li {
     background-color: #707070;
 }
 .grow {
-    display: none;
+    transition: ease-in;
     z-index: 999;
     position: absolute;
     top: 140px;
     left: 370px;
     width: 770px;
     height: 120px;
-    background-color: transparent;
 }
 .grow h3 {
+    transition: ease-in;
     color: #FFFFFF;
     text-align: center;
     font-size: 60px;
@@ -110,6 +110,7 @@ li {
     font-weight: 700;
     margin-bottom: 20px;
 }
+
 .wrap .grow p {
     text-align: center;
     color: #FFFFFF;
@@ -125,6 +126,7 @@ li {
     margin:  90px  auto;
 }
 .bussiness p {
+
     display: inline-block;
     float: left;
     color: #222222;
@@ -170,17 +172,22 @@ li {
     text-rendering: optimizeLegibility;
 }
 .bussiness:hover a {
-    display: inline-block;
+    display: block;
 }
 .bussiness p a {
+
     width: 350px;
-    position: absolute;
     display: none;
     color: #646464;
     line-height: 24px;
     font-size: 16px;
     font-family: lato, sans-serif;
     font-weight: 400;
+}
+.bussiness p a:nth-child(3) {
+    position: absolute;
+    top: 21px;
+    left: 0;
 }
 .konw {
     position: relative;
